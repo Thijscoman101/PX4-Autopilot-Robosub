@@ -3,25 +3,21 @@
 # @name Custom Robosub Airframe
 # @type Underwater Robot
 # @class UUV
-# @maintainer Thijs Vader
-#
-#		Motor #		Pos	Axis	Type
-#---------------------------------------------------------
-# @output MAIN1 Motor 1 	FL 	Upward	3D Printed
-# @output MAIN2 Motor 2 	FR 	Upward 	3D Printed
-# @output MAIN3 Motor 3 	FM 	Right	3D Printed
-# @output MAIN4 Motor 4 	L	Forward	T200
-# @output MAIN5 Motor 5 	R	Forward	T200
-# @output MAIN6 Motor 6 	BM	Right	3D Printed
-# @output MAIN7 Motor 7		BM	Upward	3D Printed
-#
+# @output MAIN1 Motor 1
+# @output MAIN2 Motor 2
+# @output MAIN3 Motor 3
+# @output MAIN4 Motor 4
+# @output MAIN5 Motor 5
+# @output MAIN6 Motor 6
+# @output MAIN7 Motor 7
+# @maintainer Thijs
 
 # Load UUV Airframe Defaults
 ${R}etc/init.d/rc.uuv_defaults
 
 # ================================================================================
 # GENERAL SETTINGS
-# ================================================================================\
+# ================================================================================
 
 # To know more about a parameter, reference the documentation:
 # https://docs.px4.io/main/en/advanced_config/parameter_reference# < YOUR PARAMETER HERE >
